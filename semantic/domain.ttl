@@ -1,0 +1,55 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+isw:Assessment a owl:Class ;
+    rdfs:label "Assessment"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:Claim a owl:Class ;
+    rdfs:label "Claim"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:Clause a owl:Class ;
+    rdfs:label "Clause"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:CoverageDefinition a owl:Class ;
+    rdfs:label "CoverageDefinition"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:DocumentVersion a owl:Class ;
+    rdfs:label "DocumentVersion"@en ;
+    rdfs:subClassOf isw:Document ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:LossEvent a owl:Class ;
+    rdfs:label "LossEvent"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:Policy a owl:Class ;
+    rdfs:label "Policy"@en ;
+    rdfs:subClassOf isw:Contract ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:PolicyVersion a owl:Class ;
+    rdfs:label "PolicyVersion"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:Product a owl:Class ;
+    rdfs:label "Product"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:PurchasedCoverage a owl:Class ;
+    rdfs:label "PurchasedCoverage"@en ;
+    isw:owner "Fictional domain stewardship" .
+
+isw:SourceSnapshot a owl:Class ;
+    rdfs:label "SourceSnapshot"@en ;
+    rdfs:subClassOf isw:SourceRecord ;
+    isw:owner "Fictional domain stewardship" .
+
+<https://example.org/isw/term/module/domain> a owl:Ontology ;
+    owl:imports <https://example.org/isw/term/module/enterprise> ;
+    owl:versionInfo "1.0.0" .
+

@@ -1,0 +1,232 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/isw/term/shape/ATApplicability> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/ATApplicability/query> ;
+    sh:targetClass isw:Claim ;
+    isw:status "readiness" .
+
+<https://example.org/isw/term/shape/AssertionProvenance> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/DerivedFrom>,
+        <https://example.org/isw/term/shape/EvidenceLocator> ;
+    sh:targetClass isw:EvidenceAssertion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/CZMitigation> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/CZMitigation/query> ;
+    sh:targetClass isw:Claim ;
+    isw:status "readiness" .
+
+<https://example.org/isw/term/shape/ClaimReferences> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/LossRef>,
+        <https://example.org/isw/term/shape/PolicyRef> ;
+    sh:targetClass isw:Claim ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/ClaimValues> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/Amount>,
+        <https://example.org/isw/term/shape/Currency>,
+        <https://example.org/isw/term/shape/Status> ;
+    sh:targetClass isw:Claim ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/ClauseBounds> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/End>,
+        <https://example.org/isw/term/shape/Start> ;
+    sh:sparql <https://example.org/isw/term/shape/ClauseBounds/query> ;
+    sh:targetClass isw:Clause ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/ConflictingCause> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/ConflictingCause/query> ;
+    sh:targetClass isw:Claim ;
+    isw:status "readiness" .
+
+<https://example.org/isw/term/shape/CrosswalkUnique> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/CrosswalkUnique/query> ;
+    sh:targetClass isw:SourceRecord ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/DocumentHash> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/DocHash> ;
+    sh:targetClass isw:DocumentVersion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/DocumentPeriod> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/DocumentFrom> ;
+    sh:targetClass isw:DocumentVersion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/Labels> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/PreferredLabel> ;
+    sh:targetClass skos:Concept ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/LossDate> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/LossDateValue> ;
+    sh:targetClass isw:LossEvent ;
+    isw:status "readiness" .
+
+<https://example.org/isw/term/shape/LossIdentity> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/LossId> ;
+    sh:targetClass isw:LossEvent ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/Mapping> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/MappingStatus>,
+        <https://example.org/isw/term/shape/Strength>,
+        <https://example.org/isw/term/shape/Target> ;
+    sh:targetClass isw:MappingReview ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/NoOverlap> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/NoOverlap/query> ;
+    sh:targetClass isw:PolicyVersion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/PeriodOrder> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/PeriodOrder/query> ;
+    sh:targetClass isw:PolicyVersion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/PurchasedCoverage> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/CoverageClause>,
+        <https://example.org/isw/term/shape/Definition> ;
+    sh:targetClass isw:PurchasedCoverage ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/SourceActivity> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/GeneratedBy> ;
+    sh:targetClass isw:SourceSnapshot ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/SourceIdentity> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/SourceId> ;
+    sh:targetClass isw:SourceSnapshot ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/VersionPeriod> a sh:NodeShape ;
+    sh:property <https://example.org/isw/term/shape/From> ;
+    sh:targetClass isw:PolicyVersion ;
+    isw:status "structural" .
+
+<https://example.org/isw/term/shape/ATApplicability/query> sh:message "AT profile requires the applicable purchased pipe clause" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:country 'AT'. FILTER NOT EXISTS {$this isw:evidence ?e. ?e isw:groupId ?g. FILTER(CONTAINS(?g,'clause-pipe'))}}""" .
+
+<https://example.org/isw/term/shape/Amount> sh:datatype xsd:decimal ;
+    sh:minCount 1 ;
+    sh:path isw:amount .
+
+<https://example.org/isw/term/shape/CZMitigation/query> sh:message "CZ profile requires a mitigation assessment" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:country 'CZ'. FILTER NOT EXISTS {$this isw:mitigation ?m}}""" .
+
+<https://example.org/isw/term/shape/ClauseBounds/query> sh:message "Clause offsets must fit the immutable document text" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:start ?s; isw:end ?e. ?doc isw:hasClause $this; isw:textLength ?n. FILTER(?s < 0 || ?e <= ?s || ?e > ?n)}""" .
+
+<https://example.org/isw/term/shape/ConflictingCause/query> sh:message "Sources disagree about the cause; retain both assertions" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:hasAssertion ?x, ?y. ?x isw:cause ?a. ?y isw:cause ?b. FILTER(?a != ?b)}""" .
+
+<https://example.org/isw/term/shape/CoverageClause> sh:minCount 1 ;
+    sh:path isw:clause .
+
+<https://example.org/isw/term/shape/CrosswalkUnique/query> sh:message "Source identity is not unique in its namespace" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:namespace ?ns; isw:sourceId ?id. ?other isw:namespace ?ns; isw:sourceId ?id. FILTER(?other != $this)}""" .
+
+<https://example.org/isw/term/shape/Currency> sh:in <https://example.org/isw/term/shape/Currency/values> ;
+    sh:message "Use the source currency EUR or CZK" ;
+    sh:minCount 1 ;
+    sh:path isw:currency .
+
+<https://example.org/isw/term/shape/Currency/values> rdf:first "EUR" ;
+    rdf:rest ( "CZK" ) .
+
+<https://example.org/isw/term/shape/Definition> sh:minCount 1 ;
+    sh:path isw:definition .
+
+<https://example.org/isw/term/shape/DerivedFrom> sh:minCount 1 ;
+    sh:path prov:wasDerivedFrom .
+
+<https://example.org/isw/term/shape/DocHash> sh:minCount 1 ;
+    sh:path isw:sha256 ;
+    sh:pattern "^[0-9a-f]{64}$" .
+
+<https://example.org/isw/term/shape/DocumentFrom> sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:path isw:validFrom .
+
+<https://example.org/isw/term/shape/End> sh:datatype xsd:integer ;
+    sh:minCount 1 ;
+    sh:path isw:end .
+
+<https://example.org/isw/term/shape/EvidenceLocator> sh:minCount 1 ;
+    sh:path isw:locator .
+
+<https://example.org/isw/term/shape/From> sh:datatype xsd:date ;
+    sh:minCount 1 ;
+    sh:path isw:validFrom .
+
+<https://example.org/isw/term/shape/GeneratedBy> sh:minCount 1 ;
+    sh:path prov:wasGeneratedBy .
+
+<https://example.org/isw/term/shape/LossDateValue> sh:datatype xsd:date ;
+    sh:message "Loss date is required to select historical terms" ;
+    sh:minCount 1 ;
+    sh:path isw:lossDate .
+
+<https://example.org/isw/term/shape/LossId> sh:minCount 1 ;
+    sh:path isw:sourceId .
+
+<https://example.org/isw/term/shape/LossRef> sh:minCount 1 ;
+    sh:path isw:loss .
+
+<https://example.org/isw/term/shape/MappingStatus> sh:minCount 1 ;
+    sh:path isw:status .
+
+<https://example.org/isw/term/shape/NoOverlap/query> sh:message "Policy versions overlap; select no arbitrary latest version" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {?p isw:hasVersion $this, ?other. $this isw:validFrom ?a. ?other isw:validFrom ?b. OPTIONAL {$this isw:validTo ?ae} OPTIONAL {?other isw:validTo ?be} FILTER($this != ?other && (!BOUND(?ae) || ?b < ?ae) && (!BOUND(?be) || ?a < ?be))}""" .
+
+<https://example.org/isw/term/shape/PeriodOrder/query> sh:message "Policy period must end after its start" ;
+    sh:select """PREFIX isw: <https://example.org/isw/term/>
+SELECT $this WHERE {$this isw:validFrom ?a; isw:validTo ?b. FILTER(?a >= ?b)}""" .
+
+<https://example.org/isw/term/shape/PolicyRef> sh:minCount 1 ;
+    sh:path isw:policy .
+
+<https://example.org/isw/term/shape/PreferredLabel> sh:minCount 1 ;
+    sh:path skos:prefLabel ;
+    sh:uniqueLang true .
+
+<https://example.org/isw/term/shape/SourceId> sh:minCount 1 ;
+    sh:path isw:sourceId .
+
+<https://example.org/isw/term/shape/Start> sh:datatype xsd:integer ;
+    sh:minCount 1 ;
+    sh:path isw:start .
+
+<https://example.org/isw/term/shape/Status> sh:in <https://example.org/isw/term/shape/Status/values> ;
+    sh:minCount 1 ;
+    sh:path isw:status .
+
+<https://example.org/isw/term/shape/Status/values> rdf:first "open" ;
+    rdf:rest ( "reviewed" ) .
+
+<https://example.org/isw/term/shape/Strength> sh:in <https://example.org/isw/term/shape/Strength/values> ;
+    sh:minCount 1 ;
+    sh:path isw:mappingStrength .
+
+<https://example.org/isw/term/shape/Strength/values> rdf:first "exact" ;
+    rdf:rest ( "close" "broad" ) .
+
+<https://example.org/isw/term/shape/Target> sh:minCount 1 ;
+    sh:path isw:mappingTarget .
+

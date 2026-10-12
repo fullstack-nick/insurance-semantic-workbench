@@ -1,0 +1,3399 @@
+{
+  "recorded_at": "2026-10-12 21:11:51.440070+00:00",
+  "projection_id": "prj-61a3f949f0924866",
+  "release_manifest_hash": "3f66ee9af4594daf5656366aa35ab98e297c16b1a02769ab5a3d982b5bd3d9d8",
+  "corpus_sha256": "a872cf99ea8053db3e5634a2bd56b1abcef0a55c0bf10a3eb1129a52499d575f",
+  "versions": {
+    "rdflib": "7.6.0",
+    "pyshacl": "0.40.1",
+    "owlrl": "7.6.2"
+  },
+  "classes": 30,
+  "properties": 55,
+  "shapes": 20,
+  "inference_axiom": [
+    "https://example.org/isw/term/Policy",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "https://example.org/isw/term/Contract"
+  ],
+  "meta_shacl": "passed",
+  "unresolved_consumer_terms": [],
+  "queries": [
+    {
+      "id": "CQ01",
+      "case": "CLM-AT-001",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "policy": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-001"
+          },
+          "date": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2024-12-31"
+          },
+          "version": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-001-v1"
+          },
+          "from": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2024-01-01"
+          },
+          "to": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2025-01-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ02",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "version": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-002-v2"
+          },
+          "date": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2025-08-14"
+          },
+          "coverage": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-002-v2-pipe"
+          },
+          "from": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2025-01-01"
+          },
+          "definition": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ03",
+      "case": "CLM-AT-001",
+      "passed": true,
+      "row_count": 3,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-a7df69c8038303164c1f5e08"
+          },
+          "group": {
+            "type": "literal",
+            "value": "CLM-AT-001/clause-duties"
+          },
+          "text": {
+            "type": "literal",
+            "value": "Nachweise: Schadenzeitpunkt, Fotos und ein Bericht zur Ursache sind für die Prüfung erforderlich. Widersprüchliche Angaben bleiben getrennt dokumentiert. Eine Prüfung ist keine Leistungszusage."
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-3b377f39d58a0a3118fa9c7b"
+          },
+          "group": {
+            "type": "literal",
+            "value": "CLM-AT-001/clause-pipe"
+          },
+          "text": {
+            "type": "literal",
+            "value": "Leitungswasser: Schäden durch bestimmungswidrig austretendes Wasser aus fest verlegten Druckleitungen sind bei gewählter Rohrleckage-Deckung eingeschlossen. Selbstbehalt: 120 EUR. Die Ursache muss belegt werden."
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-be11db755637d22dd30b8d20"
+          },
+          "group": {
+            "type": "literal",
+            "value": "CLM-AT-001/clause-mitigation"
+          },
+          "text": {
+            "type": "literal",
+            "value": "Schadenminderung: Zumutbare Sofortmaßnahmen dokumentieren. Im fiktiven CZ-Betriebsprofil ist eine separate Schadenminderungsbewertung erforderlich; die Sprache bestimmt nicht das Profil."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ04",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 2,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "assignment": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002-reporter"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/PERSON-AT-002"
+          },
+          "role": {
+            "type": "literal",
+            "value": "reporter"
+          },
+          "context": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "assignment": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002-insured"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/PERSON-AT-002"
+          },
+          "role": {
+            "type": "literal",
+            "value": "insured"
+          },
+          "context": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-002"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ05",
+      "case": "CLM-AT-012",
+      "passed": true,
+      "row_count": 2,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-012"
+          },
+          "loss": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/LOSS-AT-012"
+          },
+          "claim": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-013"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-012"
+          },
+          "loss": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/LOSS-AT-012"
+          },
+          "claim": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-012"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ06",
+      "case": "CLM-AT-003",
+      "passed": true,
+      "row_count": 2,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-003"
+          },
+          "finding": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/finding-be4fab164f9eb759"
+          },
+          "message": {
+            "type": "literal",
+            "value": "Loss date is required to select historical terms"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-003"
+          },
+          "finding": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/finding-d2fce78215f9bc73"
+          },
+          "message": {
+            "type": "literal",
+            "value": "AT profile requires the applicable purchased pipe clause"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ07",
+      "case": "CLM-AT-004",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-004"
+          },
+          "code": {
+            "type": "literal",
+            "value": "WD"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/water-damage"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ08",
+      "case": "CLM-AT-005",
+      "passed": true,
+      "row_count": 2,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-005"
+          },
+          "a": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-831b408bf33f495bcc3f50ff"
+          },
+          "b": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-f43860fe84effec720dfa22b"
+          },
+          "x": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/surface-flooding"
+          },
+          "first": {
+            "type": "literal",
+            "value": "assessor assertion: External surface water entered below the door; no pipe rupture observed. Reported cause: surface-flooding."
+          },
+          "y": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe-leakage"
+          },
+          "second": {
+            "type": "literal",
+            "value": "customer assertion: Water escaped from a split fixed pressure pipe in the kitchen. Reported cause: pipe-leakage."
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-005"
+          },
+          "a": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-f43860fe84effec720dfa22b"
+          },
+          "b": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-831b408bf33f495bcc3f50ff"
+          },
+          "x": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe-leakage"
+          },
+          "first": {
+            "type": "literal",
+            "value": "customer assertion: Water escaped from a split fixed pressure pipe in the kitchen. Reported cause: pipe-leakage."
+          },
+          "y": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/surface-flooding"
+          },
+          "second": {
+            "type": "literal",
+            "value": "assessor assertion: External surface water entered below the door; no pipe rupture observed. Reported cause: surface-flooding."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ09",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 11,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-e0de8cd1741270813637027f"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-f534e97921536545997772da"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"field\":\"period\",\"row\":\"POL-AT-002-v2\",\"table\":\"policy_versions\",\"type\":\"sql-snapshot\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "5eb3e3649ece99259af9c4407c7596b235de6e63af16a643278de97e9129f417"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-52818c7d326b66904232e81b"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-3c0158fe69e71c3aeae38a93"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"clause\":\"pipe\",\"document_version\":\"DOC-AT-02-v2\",\"end\":246,\"normalization\":\"UTF-8 decoded; LF; Unicode character offsets\",\"start\":35,\"type\":\"document-span\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "3e79a79f10916c4b7cfc95a4d0fa4b2a7c2101765c9dd70a92657424739afb1d"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-dfedc68453b5358ace1025b2"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-2769f29e34b48ae5cc116716"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"pointer\":\"/observations/1\",\"type\":\"json-pointer\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "e670023ab1695e6cf45115c55ec247fac1397c1cc846790b06efcabe5614ab9c"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-4e6ddf1e410c80eb64d7671f"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-2769f29e34b48ae5cc116716"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"pointer\":\"/observations/0\",\"type\":\"json-pointer\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "e670023ab1695e6cf45115c55ec247fac1397c1cc846790b06efcabe5614ab9c"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-c75a6f3a68e4f773ef892577"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-3c0158fe69e71c3aeae38a93"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"clause\":\"duties\",\"document_version\":\"DOC-AT-02-v2\",\"end\":632,\"normalization\":\"UTF-8 decoded; LF; Unicode character offsets\",\"start\":439,\"type\":\"document-span\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "3e79a79f10916c4b7cfc95a4d0fa4b2a7c2101765c9dd70a92657424739afb1d"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-a9f4e983c87433b926eacb22"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-f534e97921536545997772da"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"field\":\"coverages\",\"row\":\"POL-AT-002-v2\",\"table\":\"policy_versions\",\"type\":\"sql-snapshot\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "5eb3e3649ece99259af9c4407c7596b235de6e63af16a643278de97e9129f417"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-0c99ca2b24203b22d23a355a"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-f534e97921536545997772da"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"field\":\"party\",\"row\":\"POL-AT-002\",\"table\":\"policies\",\"type\":\"sql-snapshot\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "5eb3e3649ece99259af9c4407c7596b235de6e63af16a643278de97e9129f417"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-d54397d2b0743aea4d55339f"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-2769f29e34b48ae5cc116716"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"pointer\":\"/reporter\",\"type\":\"json-pointer\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "e670023ab1695e6cf45115c55ec247fac1397c1cc846790b06efcabe5614ab9c"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-c6e3a2b578f3270a3fa7085a"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-2769f29e34b48ae5cc116716"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"mapping\":\"1.0.0/mappings.json\",\"pointer\":\"/observations\",\"type\":\"json-pointer\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "e670023ab1695e6cf45115c55ec247fac1397c1cc846790b06efcabe5614ab9c"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-3699f4b7221988a7921ddd5d"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-2769f29e34b48ae5cc116716"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"pointer\":\"/\",\"type\":\"json-pointer\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "e670023ab1695e6cf45115c55ec247fac1397c1cc846790b06efcabe5614ab9c"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "evidence": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/ev-04167e8d98f32ec1ab384476"
+          },
+          "source": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/src-3c0158fe69e71c3aeae38a93"
+          },
+          "locator": {
+            "type": "literal",
+            "value": "{\"clause\":\"mitigation\",\"document_version\":\"DOC-AT-02-v2\",\"end\":820,\"normalization\":\"UTF-8 decoded; LF; Unicode character offsets\",\"start\":634,\"type\":\"document-span\"}"
+          },
+          "mapping": {
+            "type": "literal",
+            "value": "1.0.0"
+          },
+          "hash": {
+            "type": "literal",
+            "value": "3e79a79f10916c4b7cfc95a4d0fa4b2a7c2101765c9dd70a92657424739afb1d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ10",
+      "case": "CLM-AT-001",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "policy": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-001"
+          },
+          "date": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2024-12-31"
+          },
+          "version": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-001-v1"
+          },
+          "from": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2024-01-01"
+          },
+          "document": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/DOC-AT-01-v1"
+          },
+          "to": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "value": "2025-01-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ11",
+      "case": "CLM-CZ-002",
+      "passed": true,
+      "row_count": 114,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/historical"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Historisch"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/historical"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Historical"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/historical"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Historické"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/unknown"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Unbekannte Ursache"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/unknown"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Unknown cause"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/unknown"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Neznámá příčina"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/sufficient"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Sufficient evidence"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/sufficient"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Dostatečné podklady"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/sufficient"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Ausreichende Nachweise"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/flood"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Überflutungsdeckung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/flood"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Flood cover"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/flood"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Krytí záplavy"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/invoice"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Invoice"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/invoice"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Faktura"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/invoice"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Rechnung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contract"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Contract terms"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contract"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Vertragsbedingungen"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contract"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Smluvní podmínky"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/duties"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Povinné podklady"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/duties"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Evidence duties"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/duties"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Nachweispflichten"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/quarantined"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "V karanténě"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/quarantined"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Zurückgestellt"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/quarantined"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Quarantined"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Pipe cover"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Krytí potrubí"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/pipe"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Rohrdeckung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/household"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Domácnost"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/household"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Haushalt"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/household"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Household"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/water-damage"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Škoda vodou"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/water-damage"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Wasserschaden"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/water-damage"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Water damage"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/handler"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Likvidátor"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/handler"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Claim handler"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/handler"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Schadenbearbeitung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/incomplete"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Unvollständig"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/incomplete"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Incomplete"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/incomplete"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Neúplné"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/customer"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Kunde"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/customer"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zákazník"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/customer"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Customer"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/open"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Otevřeno"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/open"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Open"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/open"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Offen"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/approved"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Approved"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/approved"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Freigegeben"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/approved"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Schváleno"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reporter"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Oznamovatel"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reporter"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Reporter"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reporter"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Meldende Person"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/clause"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Klausel"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/clause"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Clause"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/clause"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Ustanovení"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/assessor"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Begutachtung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/assessor"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Assessor"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/assessor"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Posuzovatel"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/rejected"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Abgelehnt"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/rejected"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Rejected"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/rejected"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zamítnuto"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/current"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Aktuell"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/current"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Aktuální"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/current"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Current"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/source-record"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zdrojový záznam"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/source-record"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Quelldatensatz"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/source-record"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Source record"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/mitigation"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Mitigation"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/mitigation"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zmírnění škody"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/mitigation"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Schadenminderung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/close"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Nahe Zuordnung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/close"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Close mapping"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/close"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Blízké mapování"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/building"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Budova"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/building"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Building"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/building"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Gebäude"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/report"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Assessment report"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/report"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Posudek"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/report"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Gutachten"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/conflicted"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Widersprüchliche Nachweise"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/conflicted"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Rozporné podklady"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/conflicted"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Conflicting evidence"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/steward"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Správce pojmů"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/steward"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Steward"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/steward"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Fachverantwortung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/broad"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Broad mapping"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/broad"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Breite Zuordnung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/broad"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Široké mapování"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/photos"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Fotos"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/photos"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Fotografie"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/photos"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Photographs"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/proposed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Proposed"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/proposed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Vorgeschlagen"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/proposed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Navrženo"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/stale"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Stale"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/stale"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zastaralé"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/stale"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Veraltet"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/architect"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Architektur"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/architect"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Architect"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/architect"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Architekt"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contents"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Vybavení"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contents"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Hausrat"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/contents"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Contents"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/exact"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Exact mapping"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/exact"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Přesné mapování"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/exact"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Exakte Zuordnung"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reviewed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Geprüft"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reviewed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Reviewed"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/reviewed"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Zkontrolováno"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/insured"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Pojištěná osoba"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/insured"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Insured party"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/insured"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Versicherte Person"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/deductible"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "cs",
+            "value": "Spoluúčast"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/deductible"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "Deductible"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-CZ-002"
+          },
+          "concept": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/deductible"
+          },
+          "label": {
+            "type": "literal",
+            "xml:lang": "de",
+            "value": "Selbstbehalt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ12",
+      "case": "CLM-AT-012",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-012"
+          },
+          "profile": {
+            "type": "literal",
+            "value": "AT"
+          },
+          "policy": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-012"
+          },
+          "propertyCountry": {
+            "type": "literal",
+            "value": "CZ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ13",
+      "case": "CLM-AT-014",
+      "passed": true,
+      "row_count": 2,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-014"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/PERSON-AT-014"
+          },
+          "approvedIdentity": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/policy-sql-PERSON-AT-014"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-014"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/PERSON-AT-014"
+          },
+          "approvedIdentity": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/claims-api-PERSON-AT-014"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ14",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "policy": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/POL-AT-002"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ15",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 53,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ17"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/PolicyVersion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ17"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ17"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ18"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ18"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ09"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ09"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ07"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/PolicyVersion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ07"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ07"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-get_case_context"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-get_case_context"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ11"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ11"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ05"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ05"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ12"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ12"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ03"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ03"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ01"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/PolicyVersion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ01"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ01"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ15"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ15"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ13"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ13"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ04"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ04"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ16"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/PolicyVersion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ16"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ16"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ08"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ08"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-readiness-v2"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-readiness-v2"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/ready"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-claim-fact-card"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/policy"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-claim-fact-card"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/Claim"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-claim-fact-card"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-case-header"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/PolicyVersion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-case-header"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/ready"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-source-peril-map"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/classification"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-source-peril-map"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/cause"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ14"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ14"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ06"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ06"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ10"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ10"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-retrieval-v1"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/evidence"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-retrieval-v1"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/clause"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ02"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/EvidenceAssertion"
+          }
+        },
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-002"
+          },
+          "consumer": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/consumer-CQ02"
+          },
+          "term": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/sourceSnapshot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ16",
+      "case": "CLM-AT-004",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-004"
+          },
+          "release": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/release-1.0.0"
+          },
+          "classification": {
+            "type": "uri",
+            "value": "https://example.org/isw/term/concept/water-damage"
+          },
+          "ready": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "value": "true"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ17",
+      "case": "CLM-AT-002",
+      "passed": true,
+      "row_count": 4,
+      "projection_id": "prj-61a3f949f0924866",
+      "bindings": [
+        {
+          "country": {
+            "type": "literal",
+            "value": "AT"
+          },
+          "ready": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "value": "false"
+          },
+          "count": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "4"
+          }
+        },
+        {
+          "country": {
+            "type": "literal",
+            "value": "AT"
+          },
+          "ready": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "value": "true"
+          },
+          "count": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "25"
+          }
+        },
+        {
+          "country": {
+            "type": "literal",
+            "value": "CZ"
+          },
+          "ready": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "value": "false"
+          },
+          "count": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "5"
+          }
+        },
+        {
+          "country": {
+            "type": "literal",
+            "value": "CZ"
+          },
+          "ready": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "value": "true"
+          },
+          "count": {
+            "type": "literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CQ18",
+      "case": "CLM-AT-001",
+      "passed": true,
+      "row_count": 1,
+      "projection_id": "prj-136d76035afd4a47",
+      "bindings": [
+        {
+          "case": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/CLM-AT-001"
+          },
+          "brief": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/run-dc1236f1a9e1418d"
+          },
+          "projection": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/prj-136d76035afd4a47"
+          },
+          "release": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/release-1.0.0"
+          },
+          "bundle": {
+            "type": "uri",
+            "value": "https://example.org/isw/entity/bundle-abcb1b6d86434878"
+          }
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

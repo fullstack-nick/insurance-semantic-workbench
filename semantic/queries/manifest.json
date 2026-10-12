@@ -1,0 +1,200 @@
+[
+  {
+    "id": "CQ01",
+    "path": "queries/CQ01.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ02",
+    "path": "queries/CQ02.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ03",
+    "path": "queries/CQ03.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ04",
+    "path": "queries/CQ04.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ05",
+    "path": "queries/CQ05.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ06",
+    "path": "queries/CQ06.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ07",
+    "path": "queries/CQ07.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ08",
+    "path": "queries/CQ08.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-005",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ09",
+    "path": "queries/CQ09.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ10",
+    "path": "queries/CQ10.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ11",
+    "path": "queries/CQ11.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ12",
+    "path": "queries/CQ12.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ13",
+    "path": "queries/CQ13.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ14",
+    "path": "queries/CQ14.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ15",
+    "path": "queries/CQ15.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ16",
+    "path": "queries/CQ16.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ17",
+    "path": "queries/CQ17.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  },
+  {
+    "id": "CQ18",
+    "path": "queries/CQ18.rq",
+    "parameters": [
+      "case",
+      "graph"
+    ],
+    "scope": "pinned projection",
+    "fixture": "CLM-AT-001",
+    "expected": "fixtures/competency-expectations.json"
+  }
+]

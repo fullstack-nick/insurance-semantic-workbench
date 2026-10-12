@@ -1,0 +1,217 @@
+[
+  {
+    "id": "CQ01",
+    "kind": "query",
+    "terms": [
+      "Claim",
+      "PolicyVersion",
+      "classification"
+    ],
+    "path": "queries/CQ01.rq"
+  },
+  {
+    "id": "CQ02",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ02.rq"
+  },
+  {
+    "id": "CQ03",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ03.rq"
+  },
+  {
+    "id": "CQ04",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ04.rq"
+  },
+  {
+    "id": "CQ05",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ05.rq"
+  },
+  {
+    "id": "CQ06",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ06.rq"
+  },
+  {
+    "id": "CQ07",
+    "kind": "query",
+    "terms": [
+      "Claim",
+      "PolicyVersion",
+      "classification"
+    ],
+    "path": "queries/CQ07.rq"
+  },
+  {
+    "id": "CQ08",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ08.rq"
+  },
+  {
+    "id": "CQ09",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ09.rq"
+  },
+  {
+    "id": "CQ10",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ10.rq"
+  },
+  {
+    "id": "CQ11",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ11.rq"
+  },
+  {
+    "id": "CQ12",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ12.rq"
+  },
+  {
+    "id": "CQ13",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ13.rq"
+  },
+  {
+    "id": "CQ14",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ14.rq"
+  },
+  {
+    "id": "CQ15",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ15.rq"
+  },
+  {
+    "id": "CQ16",
+    "kind": "query",
+    "terms": [
+      "Claim",
+      "PolicyVersion",
+      "classification"
+    ],
+    "path": "queries/CQ16.rq"
+  },
+  {
+    "id": "CQ17",
+    "kind": "query",
+    "terms": [
+      "Claim",
+      "PolicyVersion",
+      "classification"
+    ],
+    "path": "queries/CQ17.rq"
+  },
+  {
+    "id": "CQ18",
+    "kind": "query",
+    "terms": [
+      "EvidenceAssertion",
+      "sourceSnapshot"
+    ],
+    "path": "queries/CQ18.rq"
+  },
+  {
+    "id": "source-peril-map",
+    "kind": "mapping",
+    "terms": [
+      "classification",
+      "cause"
+    ]
+  },
+  {
+    "id": "readiness-v2",
+    "kind": "shape",
+    "terms": [
+      "classification",
+      "ready"
+    ]
+  },
+  {
+    "id": "claim-fact-card",
+    "kind": "template",
+    "terms": [
+      "Claim",
+      "classification",
+      "policy"
+    ]
+  },
+  {
+    "id": "case-header",
+    "kind": "ui",
+    "terms": [
+      "PolicyVersion",
+      "ready"
+    ]
+  },
+  {
+    "id": "get_case_context",
+    "kind": "agent",
+    "terms": [
+      "Claim",
+      "classification"
+    ]
+  },
+  {
+    "id": "retrieval-v1",
+    "kind": "retrieval",
+    "terms": [
+      "evidence",
+      "clause"
+    ]
+  }
+]

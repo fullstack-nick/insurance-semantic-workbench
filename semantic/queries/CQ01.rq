@@ -1,0 +1,4 @@
+PREFIX isw: <https://example.org/isw/term/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT * WHERE { VALUES ?case { <$CASE> } GRAPH <$GRAPH> { ?case isw:policy ?policy; isw:loss/isw:lossDate ?date. ?policy isw:hasVersion ?version. ?version isw:validFrom ?from. OPTIONAL {?version isw:validTo ?to} FILTER(?from <= ?date && (!BOUND(?to) || ?date < ?to)) } } LIMIT 100

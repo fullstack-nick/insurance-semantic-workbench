@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-12 20:20:26.550395+00:00",
+  "backup_id": "backup-646e7c5407cb427d",
+  "source_namespace": "isw",
+  "target_namespace": "isw-restore",
+  "projection_id": "prj-61a3f949f0924866",
+  "files_hash_verified": 302,
+  "graphs_roundtrip_verified": 17,
+  "saved_reviews_preserved": 6,
+  "completed_briefs_preserved": 2,
+  "inspected_claim_brief": "run-dc1236f1a9e1418d",
+  "result_identical": true,
+  "original_120_eur_clause_visible": true,
+  "human_review_visible": true,
+  "source_sha256": "1512cb3c4a4bdd0359647de8582a5c82e1932930ce1d5a17d4a36beb61f87ac6"
+}

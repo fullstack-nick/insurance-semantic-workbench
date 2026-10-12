@@ -1,0 +1,220 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+isw:MissingEvidence a owl:Class ;
+    rdfs:label "MissingEvidence"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:amount a rdf:Property ;
+    rdfs:domain isw:Claim .
+
+isw:assertedBy a rdf:Property ;
+    rdfs:domain isw:EvidenceAssertion .
+
+isw:cause a rdf:Property ;
+    rdfs:domain isw:EvidenceAssertion .
+
+isw:classification a rdf:Property ;
+    rdfs:domain isw:Claim .
+
+isw:clause a rdf:Property ;
+    rdfs:domain isw:PurchasedCoverage ;
+    rdfs:range isw:Clause .
+
+isw:context a rdf:Property ;
+    rdfs:domain isw:RoleAssignment .
+
+isw:country a rdf:Property .
+
+isw:crosswalk a rdf:Property .
+
+isw:currency a rdf:Property ;
+    rdfs:domain isw:Claim .
+
+isw:definition a rdf:Property ;
+    rdfs:domain isw:PurchasedCoverage ;
+    rdfs:range isw:CoverageDefinition .
+
+isw:dependsOn a rdf:Property ;
+    rdfs:domain isw:ConsumerDependency .
+
+isw:document a rdf:Property ;
+    rdfs:domain isw:PolicyVersion ;
+    rdfs:range isw:DocumentVersion .
+
+isw:end a rdf:Property ;
+    rdfs:domain isw:Clause .
+
+isw:evidence a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:EvidenceAssertion ;
+    rdfs:subPropertyOf isw:hasAssertion .
+
+isw:evidenceBundle a rdf:Property ;
+    rdfs:domain isw:ReviewBrief ;
+    rdfs:range isw:EvidenceBundle .
+
+isw:finding a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:ValidationFinding .
+
+isw:generatedBy a rdf:Property ;
+    rdfs:domain isw:ReviewBrief ;
+    rdfs:range isw:ReviewRequest .
+
+isw:groupId a rdf:Property ;
+    rdfs:domain isw:EvidenceAssertion .
+
+isw:hasClause a rdf:Property ;
+    rdfs:domain isw:DocumentVersion ;
+    rdfs:range isw:Clause .
+
+isw:hasCoverage a rdf:Property ;
+    rdfs:domain isw:PolicyVersion ;
+    rdfs:range isw:PurchasedCoverage .
+
+isw:hasRole a rdf:Property ;
+    rdfs:range isw:RoleAssignment .
+
+isw:hasVersion a rdf:Property ;
+    rdfs:domain isw:Policy ;
+    rdfs:range isw:PolicyVersion .
+
+isw:language a rdf:Property ;
+    rdfs:domain isw:DocumentVersion .
+
+isw:locator a rdf:Property .
+
+isw:loss a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:LossEvent .
+
+isw:lossDate a rdf:Property ;
+    rdfs:domain isw:LossEvent .
+
+isw:mappingRelease a rdf:Property .
+
+isw:mappingStrength a rdf:Property ;
+    rdfs:domain isw:MappingReview .
+
+isw:mappingTarget a rdf:Property ;
+    rdfs:domain isw:MappingReview .
+
+isw:message a rdf:Property ;
+    rdfs:domain isw:ValidationFinding .
+
+isw:mitigation a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:Assessment .
+
+<https://example.org/isw/term/module/usecase> a owl:Ontology ;
+    owl:imports <https://example.org/isw/term/module/domain> ;
+    owl:versionInfo "1.0.0" .
+
+isw:namespace a rdf:Property .
+
+isw:offeredCoverage a rdf:Property ;
+    rdfs:domain isw:Product ;
+    rdfs:range isw:CoverageDefinition .
+
+isw:owner a rdf:Property .
+
+isw:party a rdf:Property ;
+    rdfs:domain isw:RoleAssignment ;
+    rdfs:range isw:Party .
+
+isw:policy a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:Policy .
+
+isw:predecessor a rdf:Property ;
+    rdfs:domain isw:SemanticRelease ;
+    rdfs:range isw:SemanticRelease .
+
+isw:product a rdf:Property ;
+    rdfs:domain isw:Policy ;
+    rdfs:range isw:Product .
+
+isw:projection a rdf:Property ;
+    rdfs:range isw:ProjectionSnapshot .
+
+isw:propertyCountry a rdf:Property ;
+    rdfs:domain isw:Policy .
+
+isw:ready a rdf:Property ;
+    rdfs:domain isw:Claim .
+
+isw:release a rdf:Property ;
+    rdfs:range isw:SemanticRelease .
+
+isw:role a rdf:Property ;
+    rdfs:domain isw:RoleAssignment .
+
+isw:sha256 a rdf:Property .
+
+isw:sourceCode a rdf:Property ;
+    rdfs:domain isw:Claim .
+
+isw:sourceId a rdf:Property .
+
+isw:sourceSnapshot a rdf:Property ;
+    rdfs:range isw:SourceSnapshot .
+
+isw:start a rdf:Property ;
+    rdfs:domain isw:Clause .
+
+isw:status a rdf:Property .
+
+isw:text a rdf:Property .
+
+isw:textLength a rdf:Property ;
+    rdfs:domain isw:DocumentVersion .
+
+isw:transformation a rdf:Property .
+
+isw:validFrom a rdf:Property .
+
+isw:validTo a rdf:Property .
+
+isw:ConsumerDependency a owl:Class ;
+    rdfs:label "ConsumerDependency"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:EvidenceBundle a owl:Class ;
+    rdfs:label "EvidenceBundle"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:ProjectionSnapshot a owl:Class ;
+    rdfs:label "ProjectionSnapshot"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:ReviewRequest a owl:Class ;
+    rdfs:label "ReviewRequest"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:hasAssertion a rdf:Property ;
+    rdfs:domain isw:Claim ;
+    rdfs:range isw:EvidenceAssertion .
+
+isw:MappingReview a owl:Class ;
+    rdfs:label "MappingReview"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:ReviewBrief a owl:Class ;
+    rdfs:label "ReviewBrief"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:ValidationFinding a owl:Class ;
+    rdfs:label "ValidationFinding"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:SemanticRelease a owl:Class ;
+    rdfs:label "SemanticRelease"@en ;
+    isw:owner "Fictional usecase stewardship" .
+
+isw:EvidenceAssertion a owl:Class ;
+    rdfs:label "EvidenceAssertion"@en ;
+    isw:owner "Fictional usecase stewardship" .
+

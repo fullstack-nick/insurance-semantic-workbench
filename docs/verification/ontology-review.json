@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-12 20:12:52.712371+00:00",
+  "run_id": "run-f675224ce8ca4f62",
+  "state": "completed",
+  "tool_count": 4,
+  "model": "gpt-6.1-sol",
+  "result": {
+    "release_id": "2.0.0",
+    "observations": [
+      "[release-diff] Release 2.0.0 adds pipe-leakage and surface-flooding beneath water-damage, multilingual labels, and a SpecificCause readiness shape; no triples are removed. Structural differences do not establish semantic equivalence.",
+      "[release-diff] AT:WD and CZ:VODA retain exact mappings to water-damage. Narrowing becomes enabled and still requires a source assertion.",
+      "[change-impact] The report lists 50 changed records: 40 classifications narrow to pipe-leakage, and six records change from sufficient to incomplete. Ten records remain unresolved.",
+      "[change-impact] Nine consumers are affected: CQ01, CQ07, CQ16, CQ17, source-peril-map, readiness-v2, claim-fact-card, case-header, and get_case_context. CQ16 examples show classification and readiness can change independently.",
+      "[candidate-validation] Findings include conflicting causes for CLM-AT-005 and CLM-CZ-005; overlapping versions of POL-AT-009 and POL-CZ-009; currency violations for CLM-AT-010 and CLM-CZ-010; missing loss dates for CLM-AT-003 and CLM-CZ-003; AT clause applicability gaps; and a missing CZ mitigation assessment.",
+      "[candidate-validation; change-impact] Narrowed classifications coexist with other validation failures, so classification alone does not establish readiness."
+    ],
+    "projection_id": "prj-c67ca6d8e65040ea",
+    "schema_version": 1,
+    "report_references": [
+      "candidate-validation",
+      "change-impact",
+      "release-diff"
+    ],
+    "suggested_review_actions": [
+      "[release-diff; change-impact] Check each narrowing against a traceable, unambiguous source cause while retaining the broad source-code mappings.",
+      "[candidate-validation] Preserve conflicting assertions and their provenance; seek source corrections or evidence-backed steward documentation without arbitrarily selecting a cause or latest policy version.",
+      "[candidate-validation] Investigate currency, loss-date, policy-overlap, AT applicability, and CZ mitigation findings, then repeat candidate validation after documented corrections.",
+      "[change-impact] Review affected consumers for handling broader concepts, unresolved causes, release lineage, and readiness changes; extend comparison checks beyond the three supplied CQ16 examples.",
+      "[change-impact] Keep unresolved identity assertions separate pending supporting evidence."
+    ],
+    "unresolved_mapping_questions": [
+      "[release-diff; change-impact] What unambiguous source assertion supports each of the 40 narrowed classifications? The reports describe the requirement but do not expose the underlying cause assertions.",
+      "[candidate-validation] Which conflicting cause assertions exist for CLM-AT-005 and CLM-CZ-005? Their contents are absent from the provided reports; both remain unresolved.",
+      "[candidate-validation; change-impact] What source evidence can establish specific causes for CLM-AT-004, CLM-AT-005, CLM-AT-007, CLM-AT-014, CLM-AT-021, CLM-AT-028, CLM-CZ-004, CLM-CZ-005, CLM-CZ-007, and CLM-CZ-014?",
+      "[candidate-validation] Which historical policy versions and purchased clauses apply where dates are missing or versions overlap?",
+      "[change-impact] Possible identity matches for CLM-AT-014 and CLM-CZ-014 remain unapproved; the reports do not establish identity equivalence."
+    ]
+  }
+}

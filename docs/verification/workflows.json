@@ -1,0 +1,132 @@
+{
+  "recorded_at": "2026-10-12T21:06:24.805212+00:00",
+  "suites": [
+    {
+      "name": "e2e",
+      "suite_started_at": [
+        "2026-10-12T22:42:32.502073+02:00"
+      ],
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 703.658,
+      "checks": [
+        {
+          "name": "test_e01_valid_ingestion_and_source_provenance[chromium]",
+          "seconds": 3.984,
+          "passed": true
+        },
+        {
+          "name": "test_e02_quarantine_correct_and_republish[chromium]",
+          "seconds": 156.086,
+          "passed": true
+        },
+        {
+          "name": "test_e03_mapping_approval_requires_case_evidence[chromium]",
+          "seconds": 2.38,
+          "passed": true
+        },
+        {
+          "name": "test_e04_country_scope_independent_of_language[chromium]",
+          "seconds": 27.016,
+          "passed": true
+        },
+        {
+          "name": "test_e05_historical_boundary_and_overlap[chromium]",
+          "seconds": 1.911,
+          "passed": true
+        },
+        {
+          "name": "test_e06_duplicate_event_and_replay_converge[chromium]",
+          "seconds": 119.666,
+          "passed": true
+        },
+        {
+          "name": "test_e07_out_of_order_and_interrupted_publication[chromium]",
+          "seconds": 99.742,
+          "passed": true
+        },
+        {
+          "name": "test_e08_document_replacement_preserves_saved_evidence[chromium]",
+          "seconds": 112.291,
+          "passed": true
+        },
+        {
+          "name": "test_e09_release_rollback_and_restore_saved_review[chromium]",
+          "seconds": 160.395,
+          "passed": true
+        },
+        {
+          "name": "test_e10_country_outage_is_explicit_and_recovers[chromium]",
+          "seconds": 20.187,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "startup",
+      "suite_started_at": [
+        "2026-10-12T23:00:32.560595+02:00"
+      ],
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 330.083,
+      "checks": [
+        {
+          "name": "test_e09_release_rollback_and_restore_saved_review[chromium]",
+          "seconds": 330.083,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "mcp",
+      "suite_started_at": [
+        "2026-10-12T23:00:16.244087+02:00"
+      ],
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 9.184,
+      "checks": [
+        {
+          "name": "test_real_mcp_rejects_scope_escape_and_revoked_token",
+          "seconds": 9.184,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "live",
+      "suite_started_at": [
+        "2026-10-12T22:01:17.177334+02:00"
+      ],
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 228.718,
+      "checks": [
+        {
+          "name": "test_l01_historical_normal_review[chromium]",
+          "seconds": 37.647,
+          "passed": true
+        },
+        {
+          "name": "test_l02_conflicts_missing_and_multilingual_evidence[chromium]",
+          "seconds": 146.432,
+          "passed": true
+        },
+        {
+          "name": "test_l03_continuation_after_hostile_source_and_cancellation[chromium]",
+          "seconds": 44.639,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

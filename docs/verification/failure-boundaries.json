@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-12 20:12:17.983283+00:00",
+  "signed_out_account_state": "disconnected",
+  "signed_out_sdk_refusal": "ChatGPT sign-in is required; API-key fallback is disabled",
+  "model_requests_for_probe": 0,
+  "observed_early_runtime_validation_failures": [
+    {
+      "run_id": "run-7a3036506f054704",
+      "state": "failed",
+      "error": "ValueError: Brief scope does not match the pinned run",
+      "result_empty": true
+    },
+    {
+      "run_id": "run-a3df3041f6224b4e",
+      "state": "failed",
+      "error": "ValueError: Brief scope does not match the pinned run",
+      "result_empty": true
+    },
+    {
+      "run_id": "run-5fe4a63f74dd41f1",
+      "state": "failed",
+      "error": "ValueError: Brief scope does not match the pinned run",
+      "result_empty": true
+    }
+  ],
+  "rate_limit_failure": "Not deliberately induced. The SDK propagates real limit errors to a visible retryable state; no automatic purchase or retry loop."
+}

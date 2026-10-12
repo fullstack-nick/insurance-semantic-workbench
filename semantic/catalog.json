@@ -1,0 +1,11 @@
+{
+  "profile": "RDFS",
+  "network_imports": false,
+  "modules": {
+    "country.ttl": "f20258f07ca52f100f4141f5d8b63e2640b1f6a4e3ba069a2c451c3ff96928ed",
+    "domain.ttl": "9434a9ac71b22f0eb9730366660c4e541343c80c07712727ff2d416ca43b8d85",
+    "enterprise.ttl": "cf5fd5261cf4334a3f172f0790ffe5c9d7d1a0ca4e87a94040c3a3c03f0e53eb",
+    "shapes.ttl": "a9d04350b7cbc518329f5b81479dc43a4ba13a5bb251113ca736763e25bb1800",
+    "usecase.ttl": "402b60716d51a9744c747536431dfede2c0e153f6793f99526c4d616503bb729"
+  }
+}

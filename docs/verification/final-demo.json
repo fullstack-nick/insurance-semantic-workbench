@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-12 21:13:54.044863+00:00",
+  "namespace": "isw",
+  "health": {
+    "services": {
+      "PostgreSQL": "available",
+      "Fuseki AT": "available",
+      "Fuseki CZ": "available"
+    },
+    "complete": true,
+    "latency_ms": 1926.1
+  },
+  "projection_id": "prj-61a3f949f0924866",
+  "freshness": "current",
+  "counts": {
+    "policies": 100,
+    "policy_versions": 122,
+    "claims": 50,
+    "documents": 32
+  },
+  "release_states": {
+    "1.0.0": "active",
+    "2.0.0": "reviewable"
+  },
+  "completed_briefs": 2,
+  "codex_auth_state": "connected",
+  "storage_bytes": {
+    "environment": 1540051417,
+    "runtime": 1389346246,
+    "model": 492803815
+  },
+  "disk_free_bytes": 110375251968,
+  "storage_note": "Runtime includes model when using the default data root. Shared Docker VHDX size is not project usage."
+}

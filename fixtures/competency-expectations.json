@@ -1,0 +1,20 @@
+[
+  {"id": "CQ01", "case": "CLM-AT-001", "field": "version", "contains": "POL-AT-001-v1", "exact_rows": 1},
+  {"id": "CQ02", "case": "CLM-AT-002", "field": "definition", "contains": "/pipe", "exact_rows": 1},
+  {"id": "CQ03", "case": "CLM-AT-001", "field": "text", "contains": "120 EUR", "min_rows": 3},
+  {"id": "CQ04", "case": "CLM-AT-002", "field": "role", "values": ["reporter", "insured"], "exact_rows": 2},
+  {"id": "CQ05", "case": "CLM-AT-012", "field": "claim", "contains": "CLM-AT-013", "exact_rows": 2},
+  {"id": "CQ06", "case": "CLM-AT-003", "field": "message", "contains": "date", "min_rows": 1},
+  {"id": "CQ07", "case": "CLM-AT-004", "field": "concept", "contains": "water-damage", "exact_rows": 1},
+  {"id": "CQ08", "case": "CLM-AT-005", "field": "x", "contains": "pipe-leakage", "exact_rows": 2},
+  {"id": "CQ09", "case": "CLM-AT-002", "field": "hash", "min_rows": 8},
+  {"id": "CQ10", "case": "CLM-AT-001", "field": "document", "contains": "-v1", "exact_rows": 1},
+  {"id": "CQ11", "case": "CLM-CZ-002", "field": "label", "languages": ["en", "de", "cs"], "min_rows": 100},
+  {"id": "CQ12", "case": "CLM-AT-012", "field": "propertyCountry", "contains": "CZ", "exact_rows": 1},
+  {"id": "CQ13", "case": "CLM-AT-014", "field": "approvedIdentity", "contains": "claims-api-PERSON-AT-014", "forbidden": "PERSON-AT-013", "exact_rows": 2},
+  {"id": "CQ14", "case": "CLM-AT-002", "field": "policy", "contains": "POL-AT-002", "exact_rows": 1},
+  {"id": "CQ15", "case": "CLM-AT-002", "field": "consumer", "contains": "CQ", "min_rows": 18},
+  {"id": "CQ16", "case": "CLM-AT-004", "field": "classification", "contains": "water-damage", "exact_rows": 1},
+  {"id": "CQ17", "case": "CLM-AT-002", "field": "country", "values": ["AT", "CZ"], "min_rows": 4},
+  {"id": "CQ18", "case": "CLM-AT-001", "field": "projection", "saved_brief_or_explicit_empty": true}
+]

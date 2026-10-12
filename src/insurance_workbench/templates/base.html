@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="csrf-token" content="{{ csrf }}"><title>{{ title }} · Insurance Semantic Workbench</title><link rel="stylesheet" href="/static/workbench.css"><script src="/static/workbench.js" defer></script></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<aside class="rail">
+  <a class="brand" href="/cases"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M8 9H30V31H8z M8 9L30 31 M30 9L8 31"/><circle cx="8" cy="9" r="4"/><circle cx="30" cy="9" r="4"/><circle cx="8" cy="31" r="4"/><circle cx="30" cy="31" r="4"/></svg><span>Insurance<br><strong>Semantic Workbench</strong></span></a>
+  <p class="nav-label">WORKSPACE</p>
+  <nav aria-label="Main navigation">
+    {% for href,label,icon in [('/cases','Cases','01'),('/terminology','Terminology & mappings','02'),('/validation','Validation queue','03'),('/compare','Retrieval comparison','04'),('/releases','Semantic releases','05'),('/federation','Country federation','06'),('/status','Local system','07')] %}
+    <a href="{{ href }}" class="{% if path.startswith(href) or href=='/cases' and path=='/' %}selected{% endif %}"><span>{{ icon }}</span>{{ label }}</a>
+    {% endfor %}
+  </nav>
+  <div class="rail-bottom"><span class="live-dot"></span> Local workspace <p>Invented data. Human decisions.</p><form action="/actions/role" method="post"><input type="hidden" name="csrf" value="{{ csrf }}"><label for="role">View as · simulated role</label><div class="inline"><select id="role" name="role">{% for r in ['handler','steward','architect'] %}<option {% if role==r %}selected{% endif %}>{{ r }}</option>{% endfor %}</select><button class="small" aria-label="Change role">↗</button></div></form></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><span>REVIEW WITH CONTEXT <span class="separator">/</span> {{ title }}</span><div class="inline"><span class="badge neutral">AT + CZ</span>{% if snapshot %}<span class="badge">Release {{ snapshot.release_id }}</span><span class="freshness {{ snapshot.freshness }}">{{ snapshot.freshness }}</span>{% endif %}</div></header>
+  <main id="main">{% block content %}{% endblock %}</main>
+  <footer>Insurance Semantic Workbench <span>Independent demonstration · fictional operating rules · local deployment</span></footer>
+</div>
+</body></html>

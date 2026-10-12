@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.ttl text eol=lf
+*.rq text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ps1 text eol=crlf
+
+# Frozen manifests hash these inputs as exact bytes; checkout must preserve them.
+semantic/** -text whitespace=cr-at-eol,-blank-at-eof
+fixtures/*.json -text whitespace=cr-at-eol,-blank-at-eof
+compose.yaml -text whitespace=cr-at-eol,-blank-at-eof
+infra/fuseki/Dockerfile -text whitespace=cr-at-eol,-blank-at-eof
+uv.lock -text whitespace=cr-at-eol,-blank-at-eof

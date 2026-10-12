@@ -1,0 +1,14 @@
+{
+  "postgres": "PostgreSQL 17.11 (Debian 17.11-1.pgdg12+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14+deb12u1) 12.2.0, 64-bit",
+  "vector_roundtrip": "passed",
+  "fuseki": {
+    "AT": "write/query passed",
+    "CZ": "write/query passed"
+  },
+  "shacl_negative_fixture": "passed",
+  "embedding_device": "cpu",
+  "dimension": 384,
+  "max_tokens": 512,
+  "cold_encode_seconds": 5.955,
+  "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+}

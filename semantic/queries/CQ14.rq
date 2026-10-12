@@ -1,0 +1,2 @@
+PREFIX isw: <https://example.org/isw/term/>
+SELECT ?policy FROM <$GRAPH> FROM <$INFERRED_GRAPH> WHERE { <$CASE> isw:policy ?policy. ?policy a isw:Contract } LIMIT 100

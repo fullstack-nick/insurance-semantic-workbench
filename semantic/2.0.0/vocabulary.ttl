@@ -1,0 +1,365 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://example.org/isw/term/concept/approved> a skos:Concept ;
+    skos:definition "Fictional workbench concept: approved. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Schváleno"@cs,
+        "Freigegeben"@de,
+        "Approved"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/architect> a skos:Concept ;
+    skos:definition "Fictional workbench concept: architect. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Architekt"@cs,
+        "Architektur"@de,
+        "Architect"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/assessor> a skos:Concept ;
+    skos:definition "Fictional workbench concept: assessor. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Posuzovatel"@cs,
+        "Begutachtung"@de,
+        "Assessor"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/broad> a skos:Concept ;
+    skos:definition "Fictional workbench concept: broad mapping. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Široké mapování"@cs,
+        "Breite Zuordnung"@de,
+        "Broad mapping"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/building> a skos:Concept ;
+    skos:definition "Fictional workbench concept: building. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Budova"@cs,
+        "Gebäude"@de,
+        "Building"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/clause> a skos:Concept ;
+    skos:definition "Fictional workbench concept: clause. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Ustanovení"@cs,
+        "Klausel"@de,
+        "Clause"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/close> a skos:Concept ;
+    skos:definition "Fictional workbench concept: close mapping. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Blízké mapování"@cs,
+        "Nahe Zuordnung"@de,
+        "Close mapping"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/conflicted> a skos:Concept ;
+    skos:definition "Fictional workbench concept: conflicting evidence. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Rozporné podklady"@cs,
+        "Widersprüchliche Nachweise"@de,
+        "Conflicting evidence"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/contents> a skos:Concept ;
+    skos:definition "Fictional workbench concept: contents. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Vybavení"@cs,
+        "Hausrat"@de,
+        "Contents"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/contract> a skos:Concept ;
+    skos:definition "Fictional workbench concept: contract terms. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Smluvní podmínky"@cs,
+        "Vertragsbedingungen"@de,
+        "Contract terms"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/current> a skos:Concept ;
+    skos:definition "Fictional workbench concept: current. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Aktuální"@cs,
+        "Aktuell"@de,
+        "Current"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/customer> a skos:Concept ;
+    skos:definition "Fictional workbench concept: customer. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zákazník"@cs,
+        "Kunde"@de,
+        "Customer"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/deductible> a skos:Concept ;
+    skos:definition "Fictional workbench concept: deductible. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Spoluúčast"@cs,
+        "Selbstbehalt"@de,
+        "Deductible"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/duties> a skos:Concept ;
+    skos:definition "Fictional workbench concept: evidence duties. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Povinné podklady"@cs,
+        "Nachweispflichten"@de,
+        "Evidence duties"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/exact> a skos:Concept ;
+    skos:definition "Fictional workbench concept: exact mapping. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Přesné mapování"@cs,
+        "Exakte Zuordnung"@de,
+        "Exact mapping"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/flood> a skos:Concept ;
+    skos:definition "Fictional workbench concept: flood cover. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Krytí záplavy"@cs,
+        "Überflutungsdeckung"@de,
+        "Flood cover"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/handler> a skos:Concept ;
+    skos:definition "Fictional workbench concept: claim handler. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Likvidátor"@cs,
+        "Schadenbearbeitung"@de,
+        "Claim handler"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/historical> a skos:Concept ;
+    skos:definition "Fictional workbench concept: historical. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Historické"@cs,
+        "Historisch"@de,
+        "Historical"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/household> a skos:Concept ;
+    skos:definition "Fictional workbench concept: household. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Domácnost"@cs,
+        "Haushalt"@de,
+        "Household"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/incomplete> a skos:Concept ;
+    skos:definition "Fictional workbench concept: incomplete. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Neúplné"@cs,
+        "Unvollständig"@de,
+        "Incomplete"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/insured> a skos:Concept ;
+    skos:definition "Fictional workbench concept: insured party. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Pojištěná osoba"@cs,
+        "Versicherte Person"@de,
+        "Insured party"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/invoice> a skos:Concept ;
+    skos:definition "Fictional workbench concept: invoice. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Faktura"@cs,
+        "Rechnung"@de,
+        "Invoice"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/mitigation> a skos:Concept ;
+    skos:definition "Fictional workbench concept: mitigation. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zmírnění škody"@cs,
+        "Schadenminderung"@de,
+        "Mitigation"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/open> a skos:Concept ;
+    skos:definition "Fictional workbench concept: open. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Otevřeno"@cs,
+        "Offen"@de,
+        "Open"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/photos> a skos:Concept ;
+    skos:definition "Fictional workbench concept: photographs. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Fotografie"@cs,
+        "Fotos"@de,
+        "Photographs"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/pipe> a skos:Concept ;
+    skos:definition "Fictional workbench concept: pipe cover. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Krytí potrubí"@cs,
+        "Rohrdeckung"@de,
+        "Pipe cover"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/pipe-leakage> a skos:Concept ;
+    skos:broader <https://example.org/isw/term/concept/water-damage> ;
+    skos:definition "Fictional workbench concept: pipe leakage. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Únik vody z potrubí"@cs,
+        "Rohrleckage"@de,
+        "Pipe leakage"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/proposed> a skos:Concept ;
+    skos:definition "Fictional workbench concept: proposed. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Navrženo"@cs,
+        "Vorgeschlagen"@de,
+        "Proposed"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/quarantined> a skos:Concept ;
+    skos:definition "Fictional workbench concept: quarantined. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "V karanténě"@cs,
+        "Zurückgestellt"@de,
+        "Quarantined"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/rejected> a skos:Concept ;
+    skos:definition "Fictional workbench concept: rejected. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zamítnuto"@cs,
+        "Abgelehnt"@de,
+        "Rejected"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/report> a skos:Concept ;
+    skos:definition "Fictional workbench concept: assessment report. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Posudek"@cs,
+        "Gutachten"@de,
+        "Assessment report"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/reporter> a skos:Concept ;
+    skos:definition "Fictional workbench concept: reporter. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Oznamovatel"@cs,
+        "Meldende Person"@de,
+        "Reporter"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/reviewed> a skos:Concept ;
+    skos:definition "Fictional workbench concept: reviewed. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zkontrolováno"@cs,
+        "Geprüft"@de,
+        "Reviewed"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/source-record> a skos:Concept ;
+    skos:definition "Fictional workbench concept: source record. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zdrojový záznam"@cs,
+        "Quelldatensatz"@de,
+        "Source record"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/stale> a skos:Concept ;
+    skos:definition "Fictional workbench concept: stale. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Zastaralé"@cs,
+        "Veraltet"@de,
+        "Stale"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/steward> a skos:Concept ;
+    skos:definition "Fictional workbench concept: steward. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Správce pojmů"@cs,
+        "Fachverantwortung"@de,
+        "Steward"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/sufficient> a skos:Concept ;
+    skos:definition "Fictional workbench concept: sufficient evidence. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Dostatečné podklady"@cs,
+        "Ausreichende Nachweise"@de,
+        "Sufficient evidence"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/surface-flooding> a skos:Concept ;
+    skos:broader <https://example.org/isw/term/concept/water-damage> ;
+    skos:definition "Fictional workbench concept: surface flooding. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Povrchová záplava"@cs,
+        "Oberflächenüberflutung"@de,
+        "Surface flooding"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/unknown> a skos:Concept ;
+    skos:definition "Fictional workbench concept: unknown cause. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Neznámá příčina"@cs,
+        "Unbekannte Ursache"@de,
+        "Unknown cause"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+
+<https://example.org/isw/term/concept/water-damage> a skos:Concept ;
+    skos:definition "Fictional workbench concept: water damage. No legal or insurer-specific meaning is implied."@en ;
+    skos:prefLabel "Škoda vodou"@cs,
+        "Wasserschaden"@de,
+        "Water damage"@en ;
+    skos:scopeNote "Only the invented demonstration operating profiles apply."@en ;
+    isw:owner "Fictional domain steward" ;
+    isw:status "approved" .
+

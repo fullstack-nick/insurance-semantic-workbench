@@ -1,0 +1,25 @@
+# Planning baseline inspected on 2026-10-12.
+# Resolve for Windows x64, Python 3.12, and the CPU PyTorch backend.
+# This is research input, not a replacement for the implementation's uv.lock.
+fastapi==0.143.0
+pydantic==2.14.1
+pydantic-settings
+uvicorn==0.54.0
+jinja2==3.1.6
+python-multipart
+rdflib==7.6.0
+pyshacl==0.40.1
+owlrl==7.6.2
+SQLAlchemy==2.1.4
+alembic==1.20.0
+psycopg[binary]==3.3.6
+pgvector==0.5.1
+sentence-transformers==6.1.0
+torch==2.14.1
+openai-codex==0.162.1
+mcp==2.3.0
+httpx
+pytest==9.1.1
+pytest-playwright==0.10.0
+playwright==1.63.0
+ruff==0.17.0

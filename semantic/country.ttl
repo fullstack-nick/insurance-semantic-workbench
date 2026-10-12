@@ -1,0 +1,14 @@
+@prefix cz: <https://example.org/isw/cz/> .
+@prefix isw: <https://example.org/isw/term/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+cz:MitigationAssessment a owl:Class ;
+    rdfs:label "MitigationAssessment"@en ;
+    rdfs:subClassOf isw:Assessment ;
+    isw:owner "Fictional country stewardship" .
+
+<https://example.org/isw/term/module/country> a owl:Ontology ;
+    owl:imports <https://example.org/isw/term/module/domain> ;
+    owl:versionInfo "1.0.0" .
+

@@ -1,0 +1,41 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+isw:Asset a owl:Class ;
+    rdfs:label "Asset"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:Contract a owl:Class ;
+    rdfs:label "Contract"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:Document a owl:Class ;
+    rdfs:label "Document"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:Organization a owl:Class ;
+    rdfs:label "Organization"@en ;
+    rdfs:subClassOf isw:Party ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:Person a owl:Class ;
+    rdfs:label "Person"@en ;
+    rdfs:subClassOf isw:Party ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:RoleAssignment a owl:Class ;
+    rdfs:label "RoleAssignment"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+
+isw:SourceRecord a owl:Class ;
+    rdfs:label "SourceRecord"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+
+<https://example.org/isw/term/module/enterprise> a owl:Ontology ;
+    owl:versionInfo "1.0.0" .
+
+isw:Party a owl:Class ;
+    rdfs:label "Party"@en ;
+    isw:owner "Fictional enterprise stewardship" .
+

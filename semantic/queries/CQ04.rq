@@ -1,0 +1,4 @@
+PREFIX isw: <https://example.org/isw/term/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT * WHERE { VALUES ?case { <$CASE> } GRAPH <$GRAPH> { ?case isw:hasRole ?assignment. ?assignment isw:party ?party; isw:role ?role; isw:context ?context. } } LIMIT 100

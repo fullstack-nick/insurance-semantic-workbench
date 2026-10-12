@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "items": 12,
+    "tokens": 6000,
+    "hops": 3,
+    "distance": "exact cosine",
+    "graph_candidate_limit": 200,
+    "tie_break": "evidence ID",
+    "embedding": {
+      "model": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "dimension": 384,
+      "device": "cpu",
+      "normalization": "L2",
+      "distance": "cosine",
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "max_tokens": 512,
+      "chunker": "clause-300-overlap40-v1",
+      "fact_card": "v1"
+    }
+  },
+  "labels_sha256": {
+    "development": "3d164989ef6e04e53abbf490dbc1a017756640ee70a5131e84a74464fe32bd6b",
+    "holdout": "22c31cb10d24ebfed531e8137711f694e19a080ab0a7f73e59b67c802c9883b7"
+  },
+  "corpus_sha256": "a872cf99ea8053db3e5634a2bd56b1abcef0a55c0bf10a3eb1129a52499d575f",
+  "frozen_at": "2026-10-12 19:59:29.044458+00:00",
+  "policy": "No parameter changes between development and held-out scoring"
+}

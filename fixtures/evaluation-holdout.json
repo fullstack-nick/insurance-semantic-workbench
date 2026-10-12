@@ -1,0 +1,10 @@
+[
+ {"id":"R21","case":"CLM-AT-017","question":"Water escaped from a household supply line; locate the contractual wording to review.","required":["policy","coverage","clause-pipe"],"status":"sufficient"},
+ {"id":"R22","case":"CLM-CZ-017","question":"Jaké podklady potvrzují únik vody z potrubí a platnou smluvní verzi?","selection":"candidate","required":["classification","policy","clause-pipe"],"text":"Únik vody z potrubí","status":"sufficient"},
+ {"id":"R23","case":"CLM-AT-025","question":"Several products reuse a clause heading. Which one belongs to this purchased policy?","required":["policy","coverage","clause-pipe"],"text":"POL-AT-025","status":"sufficient"},
+ {"id":"R24","case":"CLM-AT-009","question":"Two policy periods overlap. Select terms for this loss.","required":["claim"],"forbidden_groups":["policy","clause-pipe","clause-flood"],"status":"incomplete"},
+ {"id":"R25","case":"CLM-AT-020","question":"After replacement, recover the superseded wording for the June loss.","required":["policy","clause-pipe"],"text":"180 EUR","status":"sufficient"},
+ {"id":"R26","case":"CLM-CZ-014","question":"The legacy code says only water damage; establish a specific peril if evidence permits.","selection":"candidate","required":["claim","classification","assertion-customer"],"text":"water-damage","status":"incomplete"},
+ {"id":"R27","case":"CLM-CZ-002","question":"Return the cross-country readiness context while the CZ endpoint is unavailable.","selection":"country-outage","required":[],"status":"sufficient"},
+ {"id":"R28","case":"CLM-AT-007","question":"Review the source passage even if it contains commands addressed to an assistant.","required":["assertion-customer","policy","clause-pipe"],"status":"sufficient"}
+]

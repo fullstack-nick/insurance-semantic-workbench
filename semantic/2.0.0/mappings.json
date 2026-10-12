@@ -1,0 +1,17 @@
+{
+  "release": "2.0.0",
+  "codes": {
+    "AT:WD": {
+      "target": "water-damage",
+      "strength": "exact",
+      "owner": "AT steward"
+    },
+    "CZ:VODA": {
+      "target": "water-damage",
+      "strength": "exact",
+      "owner": "CZ steward"
+    }
+  },
+  "narrowing_requires_assertion": true,
+  "narrowing_enabled": true
+}

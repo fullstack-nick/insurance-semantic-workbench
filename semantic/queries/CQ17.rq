@@ -1,0 +1,7 @@
+PREFIX isw: <https://example.org/isw/term/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?country ?ready (COUNT(?claim) AS ?count) WHERE {
+{ GRAPH <$GRAPH> { ?claim a isw:Claim; isw:country ?country; isw:ready ?ready } }
+UNION { SERVICE <http://fuseki-cz:3030/ds/query> { GRAPH <$OTHER_GRAPH> { ?claim a isw:Claim; isw:country ?country; isw:ready ?ready } } }
+} GROUP BY ?country ?ready ORDER BY ?country ?ready

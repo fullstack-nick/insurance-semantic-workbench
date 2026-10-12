@@ -1,0 +1,1202 @@
+[
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-001",
+    "entity_id": "PERSON-AT-001",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-002",
+    "entity_id": "PERSON-AT-002",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-003",
+    "entity_id": "PERSON-AT-003",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-004",
+    "entity_id": "PERSON-AT-004",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-005",
+    "entity_id": "PERSON-AT-005",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-006",
+    "entity_id": "PERSON-AT-006",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-007",
+    "entity_id": "PERSON-AT-007",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-008",
+    "entity_id": "PERSON-AT-008",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-009",
+    "entity_id": "PERSON-AT-009",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-010",
+    "entity_id": "PERSON-AT-010",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-011",
+    "entity_id": "PERSON-AT-011",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-012",
+    "entity_id": "PERSON-AT-012",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-013",
+    "entity_id": "PERSON-AT-013",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-014",
+    "entity_id": "PERSON-AT-014",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-015",
+    "entity_id": "PERSON-AT-015",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-016",
+    "entity_id": "PERSON-AT-016",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-017",
+    "entity_id": "PERSON-AT-017",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-018",
+    "entity_id": "PERSON-AT-018",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-019",
+    "entity_id": "PERSON-AT-019",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-020",
+    "entity_id": "PERSON-AT-020",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-021",
+    "entity_id": "PERSON-AT-021",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-022",
+    "entity_id": "PERSON-AT-022",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-023",
+    "entity_id": "PERSON-AT-023",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-024",
+    "entity_id": "PERSON-AT-024",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-025",
+    "entity_id": "PERSON-AT-025",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-026",
+    "entity_id": "PERSON-AT-026",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-027",
+    "entity_id": "PERSON-AT-027",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-028",
+    "entity_id": "PERSON-AT-028",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-029",
+    "entity_id": "PERSON-AT-029",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-030",
+    "entity_id": "PERSON-AT-030",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-031",
+    "entity_id": "PERSON-AT-031",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-032",
+    "entity_id": "PERSON-AT-032",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-033",
+    "entity_id": "PERSON-AT-033",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-034",
+    "entity_id": "PERSON-AT-034",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-035",
+    "entity_id": "PERSON-AT-035",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-036",
+    "entity_id": "PERSON-AT-036",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-037",
+    "entity_id": "PERSON-AT-037",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-038",
+    "entity_id": "PERSON-AT-038",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-039",
+    "entity_id": "PERSON-AT-039",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-040",
+    "entity_id": "PERSON-AT-040",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-041",
+    "entity_id": "PERSON-AT-041",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-042",
+    "entity_id": "PERSON-AT-042",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-043",
+    "entity_id": "PERSON-AT-043",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-044",
+    "entity_id": "PERSON-AT-044",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-045",
+    "entity_id": "PERSON-AT-045",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-046",
+    "entity_id": "PERSON-AT-046",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-047",
+    "entity_id": "PERSON-AT-047",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-048",
+    "entity_id": "PERSON-AT-048",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-049",
+    "entity_id": "PERSON-AT-049",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-050",
+    "entity_id": "PERSON-AT-050",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-051",
+    "entity_id": "PERSON-AT-051",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-052",
+    "entity_id": "PERSON-AT-052",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-053",
+    "entity_id": "PERSON-AT-053",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-054",
+    "entity_id": "PERSON-AT-054",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-055",
+    "entity_id": "PERSON-AT-055",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-056",
+    "entity_id": "PERSON-AT-056",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-057",
+    "entity_id": "PERSON-AT-057",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-058",
+    "entity_id": "PERSON-AT-058",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-059",
+    "entity_id": "PERSON-AT-059",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-AT-060",
+    "entity_id": "PERSON-AT-060",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-001",
+    "entity_id": "PERSON-CZ-001",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-002",
+    "entity_id": "PERSON-CZ-002",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-003",
+    "entity_id": "PERSON-CZ-003",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-004",
+    "entity_id": "PERSON-CZ-004",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-005",
+    "entity_id": "PERSON-CZ-005",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-006",
+    "entity_id": "PERSON-CZ-006",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-007",
+    "entity_id": "PERSON-CZ-007",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-008",
+    "entity_id": "PERSON-CZ-008",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-009",
+    "entity_id": "PERSON-CZ-009",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-010",
+    "entity_id": "PERSON-CZ-010",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-011",
+    "entity_id": "PERSON-CZ-011",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-012",
+    "entity_id": "PERSON-CZ-012",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-013",
+    "entity_id": "PERSON-CZ-013",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-014",
+    "entity_id": "PERSON-CZ-014",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-015",
+    "entity_id": "PERSON-CZ-015",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-016",
+    "entity_id": "PERSON-CZ-016",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-017",
+    "entity_id": "PERSON-CZ-017",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-018",
+    "entity_id": "PERSON-CZ-018",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-019",
+    "entity_id": "PERSON-CZ-019",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-020",
+    "entity_id": "PERSON-CZ-020",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-021",
+    "entity_id": "PERSON-CZ-021",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-022",
+    "entity_id": "PERSON-CZ-022",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-023",
+    "entity_id": "PERSON-CZ-023",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-024",
+    "entity_id": "PERSON-CZ-024",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-025",
+    "entity_id": "PERSON-CZ-025",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-026",
+    "entity_id": "PERSON-CZ-026",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-027",
+    "entity_id": "PERSON-CZ-027",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-028",
+    "entity_id": "PERSON-CZ-028",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-029",
+    "entity_id": "PERSON-CZ-029",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-030",
+    "entity_id": "PERSON-CZ-030",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-031",
+    "entity_id": "PERSON-CZ-031",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-032",
+    "entity_id": "PERSON-CZ-032",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-033",
+    "entity_id": "PERSON-CZ-033",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-034",
+    "entity_id": "PERSON-CZ-034",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-035",
+    "entity_id": "PERSON-CZ-035",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-036",
+    "entity_id": "PERSON-CZ-036",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-037",
+    "entity_id": "PERSON-CZ-037",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-038",
+    "entity_id": "PERSON-CZ-038",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-039",
+    "entity_id": "PERSON-CZ-039",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "policy-sql",
+    "source_id": "PERSON-CZ-040",
+    "entity_id": "PERSON-CZ-040",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-001",
+    "entity_id": "PERSON-AT-001",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-002",
+    "entity_id": "PERSON-AT-002",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-003",
+    "entity_id": "PERSON-AT-003",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-004",
+    "entity_id": "PERSON-AT-004",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-005",
+    "entity_id": "PERSON-AT-005",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-006",
+    "entity_id": "PERSON-AT-006",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-007",
+    "entity_id": "PERSON-AT-007",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-008",
+    "entity_id": "PERSON-AT-008",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-009",
+    "entity_id": "PERSON-AT-009",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-010",
+    "entity_id": "PERSON-AT-010",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-011",
+    "entity_id": "PERSON-AT-011",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-012",
+    "entity_id": "PERSON-AT-012",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-013",
+    "entity_id": "PERSON-AT-013",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-014",
+    "entity_id": "PERSON-AT-014",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-015",
+    "entity_id": "PERSON-AT-015",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-016",
+    "entity_id": "PERSON-AT-016",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-017",
+    "entity_id": "PERSON-AT-017",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-018",
+    "entity_id": "PERSON-AT-018",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-019",
+    "entity_id": "PERSON-AT-019",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-020",
+    "entity_id": "PERSON-AT-020",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-021",
+    "entity_id": "PERSON-AT-021",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-022",
+    "entity_id": "PERSON-AT-022",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-023",
+    "entity_id": "PERSON-AT-023",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-024",
+    "entity_id": "PERSON-AT-024",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-025",
+    "entity_id": "PERSON-AT-025",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-026",
+    "entity_id": "PERSON-AT-026",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-027",
+    "entity_id": "PERSON-AT-027",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-028",
+    "entity_id": "PERSON-AT-028",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-029",
+    "entity_id": "PERSON-AT-029",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "AT",
+    "source_system": "claims-api",
+    "source_id": "PERSON-AT-030",
+    "entity_id": "PERSON-AT-030",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-001",
+    "entity_id": "PERSON-CZ-001",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-002",
+    "entity_id": "PERSON-CZ-002",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-003",
+    "entity_id": "PERSON-CZ-003",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-004",
+    "entity_id": "PERSON-CZ-004",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-005",
+    "entity_id": "PERSON-CZ-005",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-006",
+    "entity_id": "PERSON-CZ-006",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-007",
+    "entity_id": "PERSON-CZ-007",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-008",
+    "entity_id": "PERSON-CZ-008",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-009",
+    "entity_id": "PERSON-CZ-009",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-010",
+    "entity_id": "PERSON-CZ-010",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-011",
+    "entity_id": "PERSON-CZ-011",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-012",
+    "entity_id": "PERSON-CZ-012",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-013",
+    "entity_id": "PERSON-CZ-013",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-014",
+    "entity_id": "PERSON-CZ-014",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-015",
+    "entity_id": "PERSON-CZ-015",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-016",
+    "entity_id": "PERSON-CZ-016",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-017",
+    "entity_id": "PERSON-CZ-017",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-018",
+    "entity_id": "PERSON-CZ-018",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-019",
+    "entity_id": "PERSON-CZ-019",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  },
+  {
+    "country": "CZ",
+    "source_system": "claims-api",
+    "source_id": "PERSON-CZ-020",
+    "entity_id": "PERSON-CZ-020",
+    "status": "approved",
+    "basis": "Authored exact source-ID crosswalk; no name matching"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-12 20:20:26.556211+00:00",
+  "namespace": "isw",
+  "corpus_counts": {
+    "policies": 100,
+    "policy_versions": 122,
+    "claims": 50,
+    "document_versions": 32,
+    "review_decisions": 6
+  },
+  "projection_id": "prj-61a3f949f0924866",
+  "evidence_items": 530,
+  "last_publication_seconds": 90.722,
+  "publication_conditions": "Observed refresh while other verification namespaces were active; not an isolated throughput benchmark",
+  "warm_http_case_response": {
+    "samples": 25,
+    "median_ms": 38.64,
+    "p95_ms": 77.37
+  },
+  "warm_browser_navigation": {
+    "samples": 10,
+    "median_ms": 53.94,
+    "p95_ms": 67.64
+  },
+  "storage_logical_file_bytes": {
+    "environment": 1540051417,
+    "runtime": 824670391,
+    "model": 492803815
+  },
+  "image_reported_bytes": {
+    "isw-fuseki:6.2.0": 150417987,
+    "pgvector/pgvector:0.8.7-pg17-bookworm@sha256:cd4ccfdaf62cbfeb5c6ee19ef0dd663406d4ed740c320b324d016a90e85385b3": 160560336
+  },
+  "interactive_volume_bytes": {
+    "postgres": 72228864,
+    "fuseki-at": 33050624,
+    "fuseki-cz": 16031744
+  },
+  "disk_free_bytes": 99839221760,
+  "database_role_checks": {
+    "reader_cannot_insert_claims": true,
+    "app_cannot_update_sources": true,
+    "source_cannot_update_decisions": true
+  },
+  "storage_caveat": "Runtime includes the model and all test namespace files/backups. Logical sizes can double-count hardlinks/shared layers; they are not measured incremental physical allocation."
+}

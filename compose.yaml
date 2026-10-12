@@ -1,0 +1,43 @@
+name: ${ISW_NAMESPACE:-isw}
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.7-pg17-bookworm@sha256:cd4ccfdaf62cbfeb5c6ee19ef0dd663406d4ed740c320b324d016a90e85385b3
+    platform: linux/amd64
+    environment:
+      POSTGRES_DB: workbench
+      POSTGRES_USER: isw
+      POSTGRES_PASSWORD: ${ISW_DB_PASSWORD:?Run Setup-Lab.ps1 first}
+    ports: ["127.0.0.1:${ISW_DB_PORT:-54320}:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U isw -d workbench"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  fuseki-at:
+    image: isw-fuseki:6.2.0
+    build: ./infra/fuseki
+    ports: ["127.0.0.1:${ISW_AT_PORT:-13030}:3030"]
+    volumes: ["fuseki-at-data:/data"]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:3030/ds/query?query=ASK%7B%7D"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  fuseki-cz:
+    image: isw-fuseki:6.2.0
+    build: ./infra/fuseki
+    ports: ["127.0.0.1:${ISW_CZ_PORT:-13031}:3030"]
+    volumes: ["fuseki-cz-data:/data"]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:3030/ds/query?query=ASK%7B%7D"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+volumes:
+  postgres-data:
+  fuseki-at-data:
+  fuseki-cz-data:

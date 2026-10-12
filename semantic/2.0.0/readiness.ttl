@@ -1,0 +1,11 @@
+@prefix isw: <https://example.org/isw/term/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<https://example.org/isw/term/shape/SpecificCause> a sh:NodeShape ;
+    sh:sparql <https://example.org/isw/term/shape/SpecificCause/query> ;
+    sh:targetClass isw:Claim ;
+    isw:status "readiness" .
+
+<https://example.org/isw/term/shape/SpecificCause/query> sh:message "Release 2 requires source-supported specific cause; broad water damage remains unresolved" ;
+    sh:select "PREFIX isw: <https://example.org/isw/term/> SELECT $this WHERE {$this isw:classification <https://example.org/isw/term/concept/water-damage>}" .
+

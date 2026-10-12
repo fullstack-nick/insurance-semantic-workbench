@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-12T21:18:37.004589+00:00",
+  "method": "Export the staged repository with Git checkout-index under both line-ending configurations and compare every frozen input byte-for-byte.",
+  "checks": [
+    {
+      "core_autocrlf": "false",
+      "matched_exact_byte_inputs": 40,
+      "mismatches": []
+    },
+    {
+      "core_autocrlf": "true",
+      "matched_exact_byte_inputs": 40,
+      "mismatches": []
+    }
+  ],
+  "input_sha256": {
+    "compose.yaml": "827b8baf17f39a2bca5e2bbadbb66926e2c772aa092ab4a0dfbf094e24846a6f",
+    "fixtures/competency-expectations.json": "c25cc7b92bbe57b331b8a105cb1014ece37a06c9184f50a6d39e5c8392e95c61",
+    "fixtures/corpus.json": "a872cf99ea8053db3e5634a2bd56b1abcef0a55c0bf10a3eb1129a52499d575f",
+    "fixtures/evaluation-development.json": "f067e3801f0f20fe5e1b9fe18ed7645045019fac0311e770cc08e4773a8c5bc5",
+    "fixtures/evaluation-holdout.json": "30067187e904b557821abbe5d5b006d94f614551ba4be3966ffa6b47fc62db81",
+    "fixtures/retrieval-freeze.json": "c6b4bc782459d419fdae20a8367c836a9b368c668bdea0337b38b51b082b6017",
+    "infra/fuseki/Dockerfile": "8dbd24336cd8d139929853af16068a9b9d2faa569a4848950372b76674efe054",
+    "semantic/1.0.0/mappings.json": "dad72c9895d7e72733f0f9481f66dc466d0a3cce50bff2c73614cc3312dd305a",
+    "semantic/1.0.0/vocabulary.ttl": "10b7c5b611adc936c6bbc74a69ea5aa9f3ab4f49eb8420608ab37d7cc67d4a14",
+    "semantic/2.0.0/mappings.json": "be9dcdefc7ddfe1bb8363ff70fa957bd5f8ef42251e2a96da20cca0690e3052d",
+    "semantic/2.0.0/readiness.ttl": "5438b5c18c59d43f550d9398866217b2acc94f5887e96afa7a5e0c3f6a948c7a",
+    "semantic/2.0.0/vocabulary.ttl": "104849c56ef2f665c73266378298c3da09cfe1a1e527d8df790001319a951dc8",
+    "semantic/catalog.json": "035c182ede8f7921c06f8b85c24af5f63ed66877a9ca17016699bf06362ce2cf",
+    "semantic/consumers.json": "6da01856515979ab413d8ee88caec8ec260f8e3f179ee943368a9101c5a845e2",
+    "semantic/country.ttl": "f20258f07ca52f100f4141f5d8b63e2640b1f6a4e3ba069a2c451c3ff96928ed",
+    "semantic/domain.ttl": "9434a9ac71b22f0eb9730366660c4e541343c80c07712727ff2d416ca43b8d85",
+    "semantic/enterprise.ttl": "cf5fd5261cf4334a3f172f0790ffe5c9d7d1a0ca4e87a94040c3a3c03f0e53eb",
+    "semantic/identity-crosswalks.json": "4ad13bc939e375a6ee42e653e4fdd560385fcbeec7d204520a4168905fb2cc33",
+    "semantic/queries/CQ01.rq": "9440d8e01b70c703dc8edd7e5f7bb35a43b44f2bbc15f7ad4c098a65a96ed459",
+    "semantic/queries/CQ02.rq": "704808968f081d87c8a87dcaf15907fff9318349aa606c740673f6fe41a3e113",
+    "semantic/queries/CQ03.rq": "bee5dbc58c8505f853e76ba8bad1e7561a23b127ce33447f2ad86fb33f48d2c6",
+    "semantic/queries/CQ04.rq": "f453c0feddd370f3527b638032dbbd14d7111bc7e6ff14df44c2375f0489f271",
+    "semantic/queries/CQ05.rq": "e13fad0727438c6e4a66a86b11da749306a3b593968589fda381a17bf2d371a2",
+    "semantic/queries/CQ06.rq": "8ed793cc2398d56bff39dadfe844844d376126988ae21c748adf9805b788be58",
+    "semantic/queries/CQ07.rq": "4e014108ca4afdfa59a941ec97ec90c8ebcface71f7112998283daabac6a25f5",
+    "semantic/queries/CQ08.rq": "e6a63b7e61f4579620be5500ca07579dfc879a2134ffbea44204cf686c27ccc2",
+    "semantic/queries/CQ09.rq": "c21d4ccd3bb860ceaa45ea0c41e3ece927706c3db51fd78be682eebd6175abeb",
+    "semantic/queries/CQ10.rq": "f382bb363c97853b0f3658546baf021a26cec8d2abf332777729d1342c7f7738",
+    "semantic/queries/CQ11.rq": "f6860f04d8538c0bddf9c212a57cd87a3ffe9cb1a03220f30d534e34f1537788",
+    "semantic/queries/CQ12.rq": "932a9fe174d51b279efb675ae2166c5d936291d964ff44b95e905862609a427a",
+    "semantic/queries/CQ13.rq": "11fe2f48856950a0f41af6e1298bcfbf09d67c5c000a2964c655a1394f57249c",
+    "semantic/queries/CQ14.rq": "301b0bd670f148f83f6ccfa7f6b4f109ccd4a5200b4ababa9585490897809689",
+    "semantic/queries/CQ15.rq": "6e532856f7bd33b5c701b07aa03dc23459c3aa2c5f2169820eb27b7262f3180f",
+    "semantic/queries/CQ16.rq": "075d711e7ae4a1d0056be09e4aaf46ba3d046579d60672a11d2ce6c60ff80bf2",
+    "semantic/queries/CQ17.rq": "c6a0f16738bcfc8833008839bb434ac17b2006d20db77714f9dfad21a3a9a4ac",
+    "semantic/queries/CQ18.rq": "618510f8bfd435e2021ce08ee31dcca29c43d8c2c5385fe4cb89b0476a0b1a0c",
+    "semantic/queries/manifest.json": "9b7c7e90cfb031f4a44ea21cb87be234c473f98997325e167c2589583bd4cc52",
+    "semantic/shapes.ttl": "a9d04350b7cbc518329f5b81479dc43a4ba13a5bb251113ca736763e25bb1800",
+    "semantic/usecase.ttl": "402b60716d51a9744c747536431dfede2c0e153f6793f99526c4d616503bb729",
+    "uv.lock": "a5bbf6bcc782957aceb376ecd99c4ba4c88b290ff01753eabdb84d266ddd7508"
+  }
+}

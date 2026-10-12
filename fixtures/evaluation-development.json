@@ -1,0 +1,22 @@
+[
+ {"id":"R01","case":"CLM-AT-002","question":"Which pipe-leakage clause applies to this claim?","required":["policy","coverage","clause-pipe"],"status":"sufficient"},
+ {"id":"R02","case":"CLM-AT-002","question":"Is flood cover purchased, or only offered by this product?","required":["policy","coverage"],"forbidden_groups":["clause-flood"],"status":"sufficient"},
+ {"id":"R03","case":"CLM-AT-001","question":"What deductible and currency apply to the historical loss?","required":["policy","clause-pipe"],"text":"120 EUR","status":"sufficient"},
+ {"id":"R04","case":"CLM-AT-002","question":"Wie heißt der belegte Rohrschaden und welche Klausel gilt?","selection":"candidate","required":["classification","clause-pipe"],"text":"Rohrleckage","status":"sufficient"},
+ {"id":"R05","case":"CLM-CZ-005","question":"Co znamená povrchová záplava a co tvrdí obě strany?","required":["classification","assertion-customer","assertion-assessor","clause-pipe"],"status":"conflicted"},
+ {"id":"R06","case":"CLM-AT-002","question":"Explain the German pipe clause in English using its source.","required":["clause-pipe","policy"],"status":"sufficient"},
+ {"id":"R07","case":"CLM-AT-006","question":"Trace the policy through its version, purchased coverage and clause.","required":["claim","policy","coverage","clause-pipe"],"status":"sufficient"},
+ {"id":"R08","case":"CLM-AT-002","question":"Does the same party report this claim and hold the insured role?","required":["roles","insured-role"],"status":"sufficient"},
+ {"id":"R09","case":"CLM-AT-012","question":"Which distinct claims reference the same loss event?","required":["claim","shared-loss"],"text":"CLM-AT-013","status":"sufficient"},
+ {"id":"R10","case":"CLM-CZ-003","question":"Find only this CZ case's available context, despite similar AT wording.","required":["claim","roles"],"status":"incomplete"},
+ {"id":"R11","case":"CLM-CZ-002","question":"Why does a German-language document still use the CZ operating profile?","required":["claim","policy","clause-pipe","mitigation"],"status":"sufficient"},
+ {"id":"R12","case":"CLM-AT-012","question":"The property is in CZ; which operating profile and property facts apply?","required":["claim","policy"],"text":"property location CZ","status":"sufficient"},
+ {"id":"R13","case":"CLM-AT-001","question":"Which terms applied before the new endorsement took effect?","required":["claim","policy","clause-pipe"],"text":"120 EUR","status":"sufficient"},
+ {"id":"R14","case":"CLM-AT-008","question":"Which policy version applies exactly on 1 January 2025?","required":["claim","policy","clause-pipe"],"text":"POL-AT-008-v2","status":"sufficient"},
+ {"id":"R15","case":"CLM-AT-020","question":"What did the late-arriving July endorsement change for the August loss?","selection":"late-endorsement","required":["policy","coverage","clause-pipe"],"text":"190 EUR","status":"sufficient"},
+ {"id":"R16","case":"CLM-AT-004","question":"Can the WD source code alone establish pipe leakage?","selection":"candidate","required":["claim","classification","assertion-customer"],"text":"water-damage","status":"incomplete"},
+ {"id":"R17","case":"CLM-AT-005","question":"Do the customer and assessor agree about how water entered?","required":["assertion-customer","assertion-assessor"],"status":"conflicted"},
+ {"id":"R18","case":"CLM-AT-003","question":"Choose the contract terms when the loss date is missing.","required":["claim"],"forbidden_groups":["policy","clause-pipe","clause-flood"],"status":"incomplete"},
+ {"id":"R19","case":"CLM-AT-014","question":"Can similar names prove that the unapproved identity candidate is this person?","required":["roles","insured-role"],"status":"incomplete"},
+ {"id":"R20","case":"CLM-AT-018","question":"Show the earlier pinned amount without mixing in the later source revision.","selection":"stale-cut","required":["claim"],"text":"1840.00","freshness":"stale","status":"sufficient"}
+]
