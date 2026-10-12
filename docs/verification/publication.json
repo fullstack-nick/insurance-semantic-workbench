@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-12T21:22:37.105823+00:00",
+  "url": "https://github.com/fullstack-nick/insurance-semantic-workbench",
+  "http_status": 200,
+  "readme_rendered": true,
+  "architecture_diagram_rendered": true,
+  "readme_screenshots": [
+    {
+      "alt": "Historical claim, applicable policy version, evidence cards, and bounded assistant",
+      "loaded": true
+    },
+    {
+      "alt": "The same review question compared across three retrieval modes",
+      "loaded": true
+    }
+  ],
+  "repository": {
+    "public": true,
+    "default_branch": "main",
+    "license": "MIT",
+    "github_pages": false,
+    "github_actions": false
+  }
+}

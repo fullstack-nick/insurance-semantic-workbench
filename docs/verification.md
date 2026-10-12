@@ -21,6 +21,7 @@ The reports record separate execution times and projection IDs. They are evidenc
 | Storage, access and timings | [Measured operations and database-role checks](verification/operations.json) |
 | Final interactive state | [Healthy services, full corpus, connected sign-in, reviewable candidate and final file sizes](verification/final-demo.json) |
 | Git checkout reproducibility | [All 40 frozen inputs preserved under both line-ending configurations](verification/git-checkout.json) |
+| Public repository | [HTTP 200, rendered README/diagram/screenshots and GitHub metadata](verification/publication.json) |
 
 The ten-workflow run passed in **703.8 seconds**. After the cold-start correction, the actual MCP probe passed from a freshly started web process (**12.6 seconds including pytest setup**) and E09's release/restore/startup workflow passed again (**330.1 seconds**). All 18 competency checks passed. The three live Codex workflows passed earlier in **228.8 seconds**; their results and timestamps remain separate. The outcome report is generated from actual pytest XML, with each suite's start time and per-test duration.
 

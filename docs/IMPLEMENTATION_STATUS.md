@@ -16,7 +16,7 @@ Implemented on 12 October 2026. The original [implementation plan](../IMPLEMENTA
 
 Platform checks, real browser workflows, actual MCP protocol checks, live model results, competency queries, retrieval measurements and restore evidence are linked from [verification](verification.md). Seven completed claim briefs were inspected against 41 cited factual observations by the implementation agent; this is explicitly not independent human/domain validation. An additional ontology-review turn completed with read-only report tools.
 
-The ten deterministic browser workflows passed. The MCP probe and E09's restore/startup workflow passed again after the cold-start readiness correction; all 18 competency checks passed. Public repository publication is in progress. No cloud deployment, CI/CD, GitHub Actions, unit tests or API-key fallback has been added.
+The ten deterministic browser workflows passed. The MCP probe and E09's restore/startup workflow passed again after the cold-start readiness correction; all 18 competency checks passed. The public [MIT repository](https://github.com/fullstack-nick/insurance-semantic-workbench) is published on `main`; its README, diagram and screenshots were verified in a real browser. GitHub Actions is disabled and GitHub Pages is not enabled. No cloud deployment, CI/CD, unit tests or API-key fallback has been added.
 
 ## Runtime decisions
 
